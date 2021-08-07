@@ -1,3 +1,7 @@
+@font-face {
+  font-family: nk57-mono;
+  src: url(../css/Fonts/nk57-monospace-sc-rg.otf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,12 +14,6 @@
     display: block;
     padding: 0px;
     background-color: #101010;
-}
-
-.inner_header{
-    height: 100%;
-    display: block;
-    margin: 0 auto;
 }
 
 .logo_container{
