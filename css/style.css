@@ -136,7 +136,7 @@ background-color: #010101;
         .pads{
             display: flex;
             position: absolute;
-            margin-top: 1.19%;
+            margin-top: 1.23%;
             margin-left: -5%;
             z-index: 1000;
         }
@@ -144,7 +144,7 @@ background-color: #010101;
         .morepads{
             display: flex;
             position: absolute; top: 85;
-            margin-top: 6.5%;
+            margin-top: 6.4%;
             margin-left: -5%;
             z-index: 1000;
         }
