@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    height: 10vh;
+}
+
+.logo_container{
+  display: block;
+  background-color:blue; 
+  height: 10vh;
+  width: 50vw;
+}
+
+.name{
+  color: rgb(170, 170, 170);
+  text-size-adjust: 100vh;
+  font-family: "alex brush", cursive;
+font-weight: lighter;
+padding: 10%;
+}
+
+.navcontainer{
+display: block;
+height:10vh;
+width: 50vw;
+background-color:#101010;
+background-color:crimson;
+}
+
+.facts{
+    position: relative;
+        float: left;
+        text-align: center;
+        color:rgb(170, 170, 170);
+        font-weight: lighter;
+      }
+
+      .sklz{
+          position:relative;
+        float: left;
+        text-align: center;
+        color:rgb(170, 170, 170);
+        font-weight: lighter;
+      }
+
+      .prjx{
+        position:relative;
+        float: left;
+        text-align: center;
+        color:rgb(170, 170, 170);
+        font-weight: lighter;
+      }
+
+      .cntx{
+        position:relative;
+        float: left;
+        text-align: center;
+        color:rgb(170, 170, 170);
+        font-weight: lighter;
+      }
+
+      .causes{
+        position:relative;
+        float: left;
+        text-align: center;
+        color:rgb(170, 170, 170);
+        font-weight: lighter;
+      }
+
+      .cozz {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-family: ds-digital;
+      }
+
+      .github{
+        position:relative;
+        float: left;
+        text-align: center;
+        color:rgb(170, 170, 170);
+        font-weight: lighter;
+      }
+
+      .gthu {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-family: ds-digital;
+      }
+
+      .linked{
+        position:relative;
+        float: left;
+        text-align: center;
+        color:rgb(170, 170, 170);
+        font-weight: lighter;
+      }
+
+      .linkd {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-family: ds-digital;
+      }
+
+      .behance{
+        position:relative;
+        float: left;
+        text-align: center;
+        color:rgb(170, 170, 170);
+        font-weight: lighter;
+      }
+
+      .bhnce{
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-family: ds-digital;
+      }
+
+
+      .fax {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-family: ds-digital;
+      }
+      
+      .skls {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-family: ds-digital;
+      }
+      
+      .proj{
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-family: ds-digital;
+      }
+      
+      .cotx {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-family: ds-digital;
+      }
+
+      .hero {
+          background-color: #101010;
+          height: 90vh;
+          width:100%;
+          bottom: 0px;
+      }
+
+      .bkgrd{
+    height: 50vh;
+    width:91.3%;
+    max-height: 50vh;
+padding-left: 100px;
+opacity: 10%;
+      }
+
+      .foregrd {
+position: absolute;
+        right: 0px;
+        top: 9.5px;
+        vertical-align: top;
+        z-index: 100;
+            }
+
+.desk {
+  width: 100%;
+  z-index:90;
+  background-color: #101010;
+  position: absolute;
+  top: 493px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 2px;
+  right: 24px;
+  font-family: poppins, sans-serif;
+  font-weight: lighter;
+  color: #c4c4c4;
+  z-index: 101;
+}
+
+.phones {
+  position: absolute;
+  float: left;
+  padding-left: 50px;
+  bottom: 0px;
+  z-index: 100;
+}
+.mouse {
+  position: absolute;
+  right: 150px;
+  bottom: 30px;
+  z-index: 100;
+  offset-rotate: 45;
+}
+
+.centered {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: poppins, sans-serif;
+  font-weight: lighter;
+  font-size: 100%;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  color:whitesmoke;
+  z-index: 200;
+  text-align: center;
+}
+
+/* DivTable.com */
+.divTable{
+  position: absolute;
+	width: 60%;
+  padding-left: 80px;
+  padding-bottom: 20px;
+  z-index: 100;
+  left: 500px;
+bottom: 40px;
+background: url("../images/board.png");
+background-repeat: no-repeat;
+background-size: 550px 210px;
+border-radius: 40px;
+padding-block-start: 20px;
+}
+
+.divTableCell, .divTableHead {
+	display: table-cell;
+}
+
+.volbar {
+  position: absolute;
+  right: 430px;
+  bottom: 40px;
+  z-index: 200;
+  font-family: poppins, sans-serif;
+  color: #777777;
+  text-align: center;
+}
+
+.trkbar {
+  position: absolute;
+  right: 380px;
+  bottom: 40px;
+  z-index: 200;
+  font-family: poppins, sans-serif;
+  color: #777777;
+  text-align: center;
+}
+
+.fader {
+  position: absolute;
+  right: 437px;
+  bottom: 80px;
+  z-index: 300;
+}
+
+.faderr {
+  position: absolute;
+  right: 385px;
+  bottom: 120px;
+  z-index: 300;
+}
+
+.factx{
+      color:rgb(170, 170, 170);
+      position: absolute;
+      font-family: ds-digital;
+      font-weight: lighter;
+      word-spacing: 27px;
+    }
+
+    .cozs{
+      color:rgb(170, 170, 170);
+      position: absolute;
+      font-family: ds-digital;
+      font-weight: lighter;
+      word-spacing: 29.5px;
+    }

@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #101010;
+}
+
+.siteHeader{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+}
+
+.logo{
+    display: flex; 
+    height: 100%;
+    width: 50%;
+    justify-content:left;
+}
+
+.name{
+    color: rgb(170, 170, 170);
+    font-family: "alex brush", cursive; 
+    font-weight: bolder;
+    font-size:xx-large;
+    margin-top: 4%;
+    margin-left: 10%;
+    letter-spacing: 3px;
+}
+
+.navBar{
+    display: flex;
+    height:100%;
+    width: 50%;
+    background-color:inherit;
+    justify-content: space-around;
+    margin-right:1%;
+    margin-top:2.5%;
+}
+
+.facts{
+    display: inline;
+    color: rgb(170, 170, 170);
+    font-family: "ds-digital"; 
+    font-weight:normal;
+}
+
+.sklz{
+    display: inline;
+    color: rgb(170, 170, 170);
+    font-family: "ds-digital"; 
+    font-weight:normal;
+}
+
+.prjx{
+    display: inline;
+    color: rgb(170, 170, 170);
+    font-family: "ds-digital"; 
+    font-weight:normal;
+}
+
+.cntx{
+    display: inline;
+    color: rgb(170, 170, 170);
+    font-family: "ds-digital"; 
+    font-weight:normal;
+}
+
+.contentSection{
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+}
+
+    .bkgrd{
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    background-image: url("../images/daw.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 92vw, 60vh;
+    opacity: 10%;
+}
+
+.intro {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: poppins, sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+    line-height: 1.25;
+    color:whitesmoke;
+    text-align: center;
+    background:transparent;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "arrow preload";
+    z-index: 300;
+    background-color:rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 65%;
+    border-bottom-right-radius: 65%;
+    text-align: center;
+    background:transparent;
+  }
+
+  .gridChild {
+    height: 0px;
+    z-index: 300;
+    background-color:rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 65%;
+    border-bottom-right-radius: 65%;
+    text-align: center;
+    background:transparent;
+  }
+  .arrow {
+    grid-area: arrow;
+    text-align: center;
+    z-index: 300;
+    background-color:rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 65%;
+    border-bottom-right-radius: 65%;
+    text-align: center;
+    background:transparent;
+  }
+  .preload {
+    grid-area: preload;
+    text-align: center;
+    z-index: 300;
+    background-color:rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 65%;
+    border-bottom-right-radius: 65%;
+  }
+  .bounceMe {
+    animation: bounceArrow .7s infinite;
+  }
+ @keyframes bounceArrow {
+    from {
+      margin-top: -20px;
+    }
+    50% {
+      margin-top: -10px;
+    }
+    to {
+      margin-top: -20px;
+    }
+  }
+
+  .siteFooter{
+    display: flex;
+    height: 35vh;
+    width: 100vw;
+    background-image: url("../images/blackwood.jpg");
+    background-repeat:round;
+    opacity: 70%;
+    justify-content: space-evenly;
+}
+
+.headphones{
+    display: block; 
+    height: 35vh;
+    width: 20vw;
+    background: transparent;
+    padding-left: 5%;
+}
+
+.phones{
+    width: 20%;
+    z-index: 300;
+    position: absolute;
+    background: transparent;
+    bottom: 1%;
+}
+
+.board{
+    display: flex;
+    height: 30vh;
+    width: 55vw;
+   justify-content: space-around;
+   background-image: url("../images/board.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 50vw, 50vh;
+   border-top-left-radius: 40px;
+   border-bottom-left-radius: 40px;
+   background-color:rgba(0, 0, 0, 0);
+}
+
+.mouse{
+    display: flex; 
+    height: 35vh;
+    width: 30vw;
+    background: transparent;
+}
+
+.mouser{
+    height: 20%;
+    z-index: 300;
+    position: absolute;
+    background: transparent;
+    bottom: 10%;
+}
+
+.foregrd {
+position: absolute;
+float: right;
+right: 0%;
+     bottom: 2%;
+            vertical-align: top;
+            z-index: 900;
+            background:transparent;
+                }
+
+.bottom-right {
+  position: absolute;
+  bottom: 1%;
+  right: -5%;
+  font-family: poppins, sans-serif;
+  font-weight: lighter;
+  color: #c4c4c4;
+  transform: translate(-50%, -50%);
+  text-align: right;
+  background:transparent;
+  z-index: 1000;
+}
