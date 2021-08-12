@@ -131,6 +131,8 @@ background-color: #010101;
         }
 
         .padContainer{
+            display: flex;
+            justify-content: center;
             height: 95%;
             width: 35%;
             margin-left: 28%;
@@ -147,6 +149,7 @@ background-color: #010101;
             box-shadow: 0px 1px 2px 2px #FF00C7;
             height: 38%;
             margin: auto;
+            margin-top: 6%;
         }
 
         .sklzpad{
@@ -155,6 +158,7 @@ background-color: #010101;
             box-shadow: 0px 1px 2px 2px #00FFE1;
             height: 38%;
             margin: auto;
+         margin-top: 6%;
         }
 
         .prjxpad{
@@ -163,6 +167,7 @@ background-color: #010101;
             box-shadow: 0px 1px 2px 2px #14EC11;
             height: 38%;
             margin: auto;
+            margin-top: 6%;
         }
 
         .cntxpad{
@@ -171,6 +176,7 @@ background-color: #010101;
             box-shadow: 0px 1px 2px 2px #EC4915;
             height: 38%;
             margin: auto;
+            margin-top: 6%;
         }
 
         .rsmepad{
@@ -179,6 +185,7 @@ background-color: #010101;
             box-shadow: 0px 1px 2px 2px #FF0035;
             height: 38%;
             margin: auto;
+            margin-bottom: 5%;
         }
 
         .lnkdpad{
@@ -187,6 +194,7 @@ background-color: #010101;
             box-shadow: 0px 1px 2px 2px #0600FF;
             height: 38%;
             margin: auto;
+            margin-bottom: 5%;
         }
 
         .gitpad{
@@ -195,6 +203,7 @@ background-color: #010101;
             box-shadow: 0px 1px 2px 2px #BD00FF;
             height: 38%;
             margin: auto;
+            margin-bottom: 5%;
         }
 
         .behcpad{
@@ -203,6 +212,7 @@ background-color: #010101;
             box-shadow: 0px 1px 2px 2px #FCFF55;
             height: 38%;
             margin: auto;
+            margin-bottom: 5%;
         }
 
         .mouseContainer{
@@ -214,7 +224,7 @@ background-color: #010101;
             background-size: 40%;
             background-position-x: -16%;
             background-color: transparent;
-            filter: brightness(0.92) contrast(1.29);
+            filter: brightness(1) contrast(1.29);
         }
 
         .bottom-right {
