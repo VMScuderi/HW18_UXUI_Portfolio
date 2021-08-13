@@ -49,7 +49,7 @@ background-color: #010101;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 92vw, 60vh;
-    opacity: 15%;
+    opacity: 25%;
     }
     
     .leftHeroBlank{
@@ -66,7 +66,7 @@ background-color: #010101;
      
     .intro {
         position: absolute;
-        top: 45%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: monospace;
@@ -144,7 +144,6 @@ background-color: #010101;
         }
 
         .faxpad{
-            filter: drop-shadow(0px 1px 2px #FF00C7);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #FF00C7;
             height: 38%;
@@ -153,7 +152,6 @@ background-color: #010101;
         }
 
         .sklzpad{
-            filter: drop-shadow(0px 1px 2px #00FFE1);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #00FFE1;
             height: 38%;
@@ -162,7 +160,6 @@ background-color: #010101;
         }
 
         .prjxpad{
-            filter: drop-shadow(0px 1px 2px #14EC11);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #14EC11;
             height: 38%;
@@ -171,7 +168,6 @@ background-color: #010101;
         }
 
         .cntxpad{
-            filter: drop-shadow(0px 1px 2px #EC4915);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #EC4915;
             height: 38%;
@@ -180,7 +176,6 @@ background-color: #010101;
         }
 
         .rsmepad{
-            filter: drop-shadow(0px 1px 2px #FF0035);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #FF0035;
             height: 38%;
@@ -189,7 +184,6 @@ background-color: #010101;
         }
 
         .lnkdpad{
-            filter: drop-shadow(0px 1px 2px #0600FF);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #0600FF;
             height: 38%;
@@ -198,7 +192,6 @@ background-color: #010101;
         }
 
         .gitpad{
-            filter: drop-shadow(0px 1px 2px #BD00FF);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #BD00FF;
             height: 38%;
@@ -207,7 +200,6 @@ background-color: #010101;
         }
 
         .behcpad{
-            filter: drop-shadow(0px 1px 2px #FCFF55);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #FCFF55;
             height: 38%;
@@ -291,9 +283,6 @@ background-color: #010101;
     grid-template-areas:
     "arrow preload";
     z-index: 300;
-    background-color:rgba(0, 0, 0, 0);
-    border-bottom-left-radius: 65%;
-    border-bottom-right-radius: 65%;
     text-align: center;
     background:transparent;
   }
@@ -301,9 +290,6 @@ background-color: #010101;
   .gridChild {
     height: 0px;
     z-index: 300;
-    background-color:rgba(0, 0, 0, 0);
-    border-bottom-left-radius: 65%;
-    border-bottom-right-radius: 65%;
     text-align: center;
     background:transparent;
   }
@@ -311,9 +297,6 @@ background-color: #010101;
       position: relative;
     grid-area: arrow;
     text-align: center;
-    background-color:rgba(0, 0, 0, 0);
-    border-bottom-left-radius: 65%;
-    border-bottom-right-radius: 65%;
     text-align: center;
     background:transparent;
   }
@@ -321,22 +304,19 @@ background-color: #010101;
     grid-area: preload;
     text-align: center;
     z-index: 300;
-    background-color:rgba(0, 0, 0, 0);
-    border-bottom-left-radius: 65%;
-    border-bottom-right-radius: 65%;
   }
   .bounceMe {
     animation: bounceArrow 0.7s infinite;
   }
  @keyframes bounceArrow {
     from {
-      margin-top: 50vh;
+      margin-top: 45vh;
     }
-    50% {
-      margin-top: 55vh;
+    49% {
+      margin-top: 50vh;
     }
     to {
-      margin-top: 50vh;
+      margin-top: 45vh;
     }
   }
   
@@ -346,4 +326,18 @@ display: block;
 position: center;
 height: 90%;
 margin-left:20%;
+  }
+
+  .controls{
+      position: absolute;
+      left: 29%;
+      top: 4.5%;
+      z-index: 300;
+      background: transparent;
+      opacity: 0.5;
+      filter: contrast(1);
+      width: 20%;
+      height: 3%;
+      box-shadow: 0px 0px 8px 8px goldenrod;
+      border-radius: 100%;
   }

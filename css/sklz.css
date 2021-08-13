@@ -115,7 +115,6 @@ background-color: #010101;
         }
 
         .faxpad{
-            filter: drop-shadow(0px 1px 2px #FF00C7);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #FF00C7;
             height: 38%;
@@ -124,14 +123,12 @@ background-color: #010101;
         }
 
         .sklzpad{
-
             height: 38%;
             margin: auto;
          margin-top: 6%;
         }
 
         .prjxpad{
-            filter: drop-shadow(0px 1px 2px #14EC11);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #14EC11;
             height: 38%;
@@ -140,7 +137,6 @@ background-color: #010101;
         }
 
         .cntxpad{
-            filter: drop-shadow(0px 1px 2px #EC4915);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #EC4915;
             height: 38%;
@@ -149,7 +145,6 @@ background-color: #010101;
         }
 
         .rsmepad{
-            filter: drop-shadow(0px 1px 2px #FF0035);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #FF0035;
             height: 38%;
@@ -158,7 +153,6 @@ background-color: #010101;
         }
 
         .lnkdpad{
-            filter: drop-shadow(0px 1px 2px #0600FF);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #0600FF;
             height: 38%;
@@ -167,7 +161,6 @@ background-color: #010101;
         }
 
         .gitpad{
-            filter: drop-shadow(0px 1px 2px #BD00FF);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #BD00FF;
             height: 38%;
@@ -176,7 +169,6 @@ background-color: #010101;
         }
 
         .behcpad{
-            filter: drop-shadow(0px 1px 2px #FCFF55);
         /* offset-x | offset-y | blur-radius | spread-radius | color */
             box-shadow: 0px 1px 2px 2px #FCFF55;
             height: 38%;
@@ -299,13 +291,13 @@ background-color: #010101;
   }
  @keyframes bounceArrow {
     from {
-      margin-top: 54vh;
+      margin-top: 53vh;
     }
     50% {
-      margin-top: 56vh;
+      margin-top: 55vh;
     }
     to {
-      margin-top: 54vh;
+      margin-top: 53vh;
     }
   }
   
@@ -319,12 +311,25 @@ margin-left:20%;
 
   #delayedText{
     position: absolute;
-    top:56%;
-    left: 86.5%;
+    top: 54%;
+    left: 85%;
     transform: translate(-50%, -50%);
     color: #c4c4c4;
     font-family: monospace, sans-serif;
     letter-spacing: 0.5px;
-    background-color: rgba(0, 0, 0, 0);
     background: transparent;
   }
+
+  .controls{
+    position: absolute;
+    left: 38%;
+    top: 4.5%;
+    z-index: 300;
+    background: transparent;
+    opacity: 0.5;
+    filter: contrast(1);
+    width: 20%;
+    height: 3%;
+    box-shadow: 0px 0px 8px 8px goldenrod;
+    border-radius: 100%;
+}

@@ -84,18 +84,27 @@
 
     <script>
       window.onload = function(){
-        var theDelay = 5;
+        var theDelay = 10;
         var timer = setTimeout("showText()",theDelay*1000)
       }
       function showText(){
         document.getElementById("delayedText").style.visibility = "visible";
       }
-      </script>
-
+</script>
+     
 <div id="delayedText" style="visibility:hidden" background="unset"><h3>
-  See these skills <br>at work in the <br>PRJX section!~
+  Nice skills, huh?
+  <br>
+  See them at work in<br>the PRJX section!~
 </h3></div>
 
-    </section>
+
+
+<audio controls volume="0.5" autoplay class="controls"> 
+  <!-- One or more source files, each referencing the same audio but in a different file format. 
+    The browser will choose the first file which it is able to play. --> 
+    <source src="mp3skillz.ogg"> <source src="mp3skillz.mp3"> Native audio playback is not supported. 
+    <!-- You could use this fall-back feature to insert a JavaScript-based audio player. --> </audio>
+
   </body>
 </html>
