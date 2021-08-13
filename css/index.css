@@ -17,10 +17,10 @@ background-color: #010101;
 
 .logoContainer{
     height: 100%;
-    width: 41%;
+    width: 45%;
     background:transparent;
     text-align: left;
-    margin-top: 2%;
+    margin-top: 1%;
     color:#c4c4c4;
     font-family: "alex brush", cursive;
     font-size:x-large; 
@@ -36,7 +36,7 @@ background-color: #010101;
     font-weight: lighter;
     color:#c4c4c4;
     text-align:right;
-    margin-top: 3%;
+    margin-top: 2%;
     vertical-align: baseline;
 }
 
@@ -66,7 +66,7 @@ background-color: #010101;
      
     .intro {
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: monospace;
@@ -326,17 +326,17 @@ background-color: #010101;
     border-bottom-right-radius: 65%;
   }
   .bounceMe {
-    animation: bounceArrow 0.8s infinite;
+    animation: bounceArrow 0.7s infinite;
   }
  @keyframes bounceArrow {
     from {
-      margin-top: 54vh;
+      margin-top: 50vh;
     }
     50% {
-      margin-top: 56vh;
+      margin-top: 55vh;
     }
     to {
-      margin-top: 54vh;
+      margin-top: 50vh;
     }
   }
   
