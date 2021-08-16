@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="css\prjx.css">
-  <title>Vito Scuderi - Projects</title>
+  <link rel="stylesheet" type="text/css" href="css\facts.css">
+  <title>Vito Scuderi - About Me</title>
 </head>
 
 <body>
@@ -13,19 +13,37 @@
         <a href="index.html" style="color: #c4c4c4"><H1>Vito Scuderi</H1></a>
       </logoContainer>
 
+      <audio controls volume="0.1" autoplay class="controls"> 
+        <!-- One or more source files, each referencing the same audio but in a different file format. 
+          The browser will choose the first file which it is able to play. --> 
+          <source src="mp3fax.ogg"> <source src="mp3fax.mp3"> Native audio playback is not supported. 
+          <!-- You could use this fall-back feature to insert a JavaScript-based audio player. --> </audio>
+      
       <navContainer class="navContainer">
-        <div style="width:10vw;height:10vh;border:0px solid grey;"><a href="facts.html" style="color: #c4c4c4"><H1>#FAX</H1></a></div>
-        <div style="width:10vw;height:10vh;border:0px solid grey;"><a href="sklz.html" style="color: #c4c4c4"><H1>SKLZ</H1></a></div>
-        <div style="width:10vw;height:10vh;border:0px solid grey; text-decoration: underline;"><H1>PRJX</H1></div>
+        <div style="width:10vw;height:10vh;border:0px solid grey; text-decoration: underline"><H1>#FAX</H1></div>
+        <div style="width:10vw;height:10vh;border:0px solid grey"><a href="sklz.html" style="color: #c4c4c4"><H1>SKLZ</H1></a></div>
+        <div style="width:10vw;height:10vh;border:0px solid grey;"><a href="prjx.html" style="color: #c4c4c4"><H1>PRJX</H1></a></div>
         <div style="width:10vw;height:10vh;border:0px solid grey;"><a href="mail.html" style="color: #c4c4c4"><H1>MAIL</H1></a></div>
       </navContainer>
     </header>
 
     <hero class="hero">
-        <div class="prjxBox">
-          <img class="sklzimage" src="images/casestudy1.png" alt="CaseStudy1" height="100%">
-          <img class="sklzimage" src="images/casestudy2.png" alt="CaseStudy2" height="100%">
-          <img class="sklzimage" src="images/casestudy3.png" alt="CaseStudy3" height="100%">
+        <div class="faxBox">
+        <!-- Some hidden text that fades in and out in small line-by-line sentences like my Figma prototype of this section needs to go here. 
+            The below code might help get you started --> 
+        <script>
+            window.onload = function(){
+              var theDelay = 10;
+              var timer = setTimeout("showText()",theDelay*1000)
+            }
+            function showText(){
+              document.getElementById("delayedText").style.visibility = "visible";
+            }
+      </script>
+           
+      <div id="delayedText" style="visibility:hidden" background="unset"><h3>
+        Some text.~
+      </h3></div>
       </div>
     </hero>
 
@@ -59,7 +77,7 @@
       </div>
     
       <div class="fader">
-        <img src="images\fader.png" alt="Vol. Fader" width="15px">
+        <img src="images/fader.png" alt="Vol. Fader" width="15px">
     </div>
     
     <div class="faderr">
@@ -67,28 +85,12 @@
     </div>
         </div>
 
-        <div class="mouseContainer">
+      <div class="mouseContainer">
       </div>
 
     </footer>
 
     <p class="bottom-right">©2021 All Rights Reserved.</p>
 
-    <script>
-      window.onload = function(){
-        var theDelay = 2;
-        var timer = setTimeout("showText()",theDelay*1000)
-      }
-      function showText(){
-        document.getElementById("delayedText").style.visibility = "visible";
-      }
-
-</script>
-     
-<div id="delayedText" style="visibility:hidden" background="unset"><h3>Sorry -<br>No music here.<br>This really<br>needs full<br>attention.</h3></div>
-
-<script>
-  
-</script>
   </body>
 </html>

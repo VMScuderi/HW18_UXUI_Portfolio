@@ -106,7 +106,7 @@ overflow-y: hidden;
             margin-left: 28%;
             background-color: transparent;
             flex-wrap: wrap;
-            gap: 1.5%;
+            gap: 1.8%;
         }
 
         .faxpad{
@@ -126,7 +126,7 @@ overflow-y: hidden;
             margin-top: 6%;
         }
 
-        .cntxpad{
+        .mailpad{
             box-shadow: 0px 1px 2px 2px #EC4915;
             height: 38%;
             margin-top: 6%;
@@ -210,14 +210,14 @@ overflow-y: hidden;
   .fader {
     position: absolute;
     right: 597px;
-    bottom: 75px;
+    bottom: 85px;
     background: transparent;
   }
   
   .faderr {
     position: absolute;
     right: 540px;
-    bottom: 115px;
+    bottom: 122px;
     background: transparent;
   }
 

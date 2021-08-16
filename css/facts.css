@@ -55,10 +55,10 @@ background:transparent;
     height: 61vh;
     }
     
-.sklzBox{
+.faxBox{
     display: flex;
     width: 60%;
-    box-shadow: 0px 0px 5px 5px #00FFE1;
+    box-shadow: 0px 0px 5px 5px #FF00C7;
     margin: auto;
     background:transparent;
     height: 96%;
@@ -106,13 +106,13 @@ background:transparent;
             gap: 1.8%;
         }
 
-        .faxpad{            
-            box-shadow: 0px 1px 2px 2px #FF00C7;
+        .faxpad{
             height: 38%;
             margin-top: 6%;
         }
 
         .sklzpad{
+            box-shadow: 0px 1px 2px 2px #00FFE1;
             height: 38%;
             margin-top: 6%;
         }
@@ -207,14 +207,14 @@ background:transparent;
   .fader {
     position: absolute;
     right: 597px;
-    bottom: 72px;
+    bottom: 80px;
     background: transparent;
   }
   
   .faderr {
     position: absolute;
     right: 540px;
-    bottom: 108px;
+    bottom: 110px;
     background: transparent;
   }
 
